@@ -1,0 +1,158 @@
+body{
+    background-color:hsl(202, 86%, 94%);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 250vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.box1{
+    background-color:  hsl(0, 0%, 100%);
+    width: 30pc;
+border-radius: 10px;
+}
+
+.box2{
+    width: 25pc;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+background-color:hsl(202, 55%, 16%);
+color: hsl(0, 0%, 100%);    
+}
+.form-style{
+    margin: 1pc;
+}
+
+label{
+    font-size: small;
+    display: flex;
+    color:hsl(200, 26%, 54%) ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input{
+    display: flex;
+    margin-bottom: .5pc;
+    margin-top: .3pc;
+    outline: none;
+    border: none;
+    
+}
+form{
+    margin-top: 15px;
+
+}
+#mortgage_Amount{
+    width: 340px;
+}
+.form_flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.Calculate-repay{
+    background-color:hsl(61, 70%, 52%);
+    border-radius: 40px;
+    width: 300px;
+    height: 40px;
+
+    padding: 2px 4px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 1.5pc;
+}
+.sign{
+    display: flex;
+border:  .5px solid rgb(136, 212, 212);;
+border-radius: 5px;
+align-items:center ;
+margin-left:2px ;
+}
+.pap{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+.image-Background{
+    background-color: hsl(202, 86%, 94%);
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.image-Background2{
+    background-color:hsl(61, 70%, 52%);
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.borde-frame{
+border:.5px solid rgb(136, 212, 212);
+display:flex;
+align-items: center;
+margin-top: 8px;
+border-radius: 5px;
+}
+button{
+    outline: none;
+    border: none;
+}
+.space{
+    padding: 3px;
+}
+.borde-frame:hover{
+    border: 0.5px solid hsl(61, 70%, 52%);
+}
+.sign:hover{
+    border: 0.5px solid hsl(61, 70%, 52%);
+}
+.borde-frame:active{
+    background-color:  rgb(237, 238, 177);
+}
+
+span{
+    color:hsl(200, 26%, 54%);
+    
+}
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.money img{
+height: 100px;
+}
+
+.intro{
+text-align: center;
+font-size: small;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: hsl(61, 70%, 52%);
+}
+.flex-ca{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5pc;
+}
+.intro p{
+    color: hsl(200, 26%, 54%);
+}
